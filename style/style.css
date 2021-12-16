@@ -12,7 +12,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
+    background-color: #22313F;
     padding: 15px 350px 0 350px;
 }
 
@@ -27,7 +27,10 @@ body {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    transition-duration: 0.5s;
 } 
+
+.header a:hover {color: #8DC6FF;}
 
 .header ul {
     display: flex;
@@ -37,7 +40,7 @@ body {
 .content {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
+    background-color: #22313F;
     padding: 80px 350px 120px 350px;
 }
 
@@ -60,10 +63,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #5a616b;
-    color: white;
+    background-color: #dbd8e3;
+    color: black;
     width: 86%;
     height: 220px;
+}
+
+.imgcont img {
+    width: 100%;
+    height: 100%;
 }
 
 .signupbtn {
@@ -114,10 +122,16 @@ body {
 
 .pic-frame {
     border-radius: 15px;
-    border: 3px solid #3882F6;
+    border: 3px solid #8DC6FF;
     margin-bottom: 7px;
     width: 140px;
     height: 140px;
+}
+
+.pic-frame img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
 }
 
 .quote {
@@ -130,7 +144,7 @@ body {
 
 .quote p {
     font-size: 36px;
-    opacity: 0.7;
+    opacity: 0.6;
     font-style: italic;
     color: #1F2937;
 }
@@ -168,9 +182,7 @@ body {
     margin: 0;
 }
 
-.ctabox .subtext {
-    font-size: 15px;
-}
+.ctabox .subtext {font-size: 15px;}
 
 .ctabox-content {
     justify-content: center;
@@ -184,7 +196,7 @@ body {
 .ctabox .signupbtn {border: 2px solid white;}
 
 footer {
-    background-color: #1F2937;
+    background-color: #22313F;
     color: white;
     text-align: center;
     padding: 30px 0 30px 0;
