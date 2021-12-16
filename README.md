@@ -7,4 +7,4 @@ It was fun, hard and really interesting challenge!
 If you want to see live preview click [here](https://sphcs013.github.io/landing-page/)
 
 ###### Image Credits
-All pictures are downloaded from [Pixabay](https://pixabay.com/)
+###### All pictures are downloaded from [Pixabay](https://pixabay.com/)
