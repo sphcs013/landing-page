@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 15px 350px 0 350px;
+}
+
+.header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+} 
+
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 80px 350px 120px 350px;
+}
+
+.content .webcont {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-right: 21%;
+}
+
+.subtext {
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.imgcont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5a616b;
+    color: white;
+    width: 86%;
+    height: 220px;
+}
+
+.signupbtn {
+    background-color: #3882F6;
+    margin-top: 10px;
+    display: flex;
+    border: none;
+    color: white;
+    padding: 6px 25px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.signupbtn:hover {
+    background-color: #0b55cc;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 60px 0;
+    gap: 35px;
+}
+
+.main-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.pic-wrap {
+    max-width: min-content;
+    text-align: center;
+}
+
+.pic-wrap p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #797979;
+}
+
+.pic-frame {
+    border-radius: 15px;
+    border: 3px solid #3882F6;
+    margin-bottom: 7px;
+    width: 140px;
+    height: 140px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 450px 60px 450px;
+
+}
+
+.quote p {
+    font-size: 36px;
+    opacity: 0.7;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.qsign {
+    color:#1F2937;
+    font-weight: 900;
+    font-size: 20px;
+    width: 94%;
+    margin-top: -30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin: 85px 0 85px 0;
+}
+
+.ctabox {
+    border-radius: 7px;
+    background: #3882F6;
+    width: 58%;
+    height: 135px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta {
+    font-size: 21px;
+    font-weight: 700;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.ctabox .subtext {
+    font-size: 15px;
+}
+
+.ctabox-content {
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.ctabox .signupbtn {border: 2px solid white;}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+footer a:hover {
+    color: rgb(89, 89, 255);
+    text-decoration: underline;
+}
